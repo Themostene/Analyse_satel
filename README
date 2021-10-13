@@ -1,2 +1,17 @@
 Files to reproduce the results from my thesis; 
 Run the pipeline, with  Satelcrawler in the same folder 
+
+Arguments for patient list objet
+patient_info_csv table format: 
+CODE | NAME SURNAME | DOB | poids | taille | etiology | Date of shunt | date of LP
+
+path_to_analysis_folder: self explanatory.
+
+path_to_csv_PMH table format: 
+CODE | NAME SURNAME | DOB | PMHx
+
+path_to_MedsCSV table format: 
+CODE | NAME SURNAME | DOB | meds | Classe | Groupe
+
+path_to_mmsCSV table format:
+CODE | NAME SURNAME | DOB | EXAM | DATE | RESULT
